@@ -1,0 +1,46 @@
+.hit-wrapper{
+    padding-top: 13rem;
+
+}
+
+.hit-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.hit-head{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    max-width: 35rem;
+    margin: auto;
+}
+
+.hiw-features{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+
+}
+
+.hiw-feature{
+    max-width: 38rem;
+    display: flex;
+    align-items: center;
+    background-color: var(--light-bg);
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+    width: max-content;
+}
+
+.hiw-feature .detail{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+    translate: -18% 0rem;
+
+}

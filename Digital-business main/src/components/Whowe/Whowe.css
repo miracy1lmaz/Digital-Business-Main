@@ -1,0 +1,74 @@
+
+.wwi-wrapper .container{
+    padding-top: 13rem;
+}
+
+.wwi-wrapper{
+    background-color: #00c9f7;
+    border-top-left-radius: 99px;
+    border-top-right-radius: 99px;
+}
+
+.wwi-container{
+    display: flex;
+    align-items: center;
+}
+
+.wwi-container > div{
+    flex: 1;
+}
+
+.wwi-left{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+.wwi-left .head{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.wwi-left .head .title{
+    text-align: center;
+    color: white;   
+}
+
+.wwi-features{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    max-width: 28rem;
+
+}
+
+.wwi-feature .des{
+    color: var(--fourth-color);
+}
+
+.wwi-feature .text{
+    color: white;
+    text-align: justify;
+}
+
+.wwi-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-end;
+}
+
+.wwi-right img{
+    width: 100%;
+}
+
+.textt {
+    font-weight: bold;
+    color: white;
+    display: flex;
+    margin: 10px;
+}
